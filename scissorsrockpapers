@@ -1,0 +1,67 @@
+import random
+keep_going = True
+while keep_going:
+
+    computer_choice = (random.randint(0,2))
+    random_insult = (random.randint(1,10))
+    random_insult = str(random_insult)
+    user_choice = input("Rock, Paper, or Scissors")
+
+    if random_insult == 1:
+        print(", you absolute cheeseparer")
+    elif random_insult == 2:
+        print("? I bet you won't, as you are a quakebuttock")
+    elif random_insult == 3:
+
+    elif random_insult == 4:
+
+    elif random_insult == 5:
+
+    elif random_insult == 6:
+
+    elif random_insult == 7:
+
+    elif random_insult == 8:
+
+    elif random_insult == 9:
+
+    elif random_insult == 10:
+
+
+
+
+    if user_choice == 'Rock' or user_choice == 'rock':
+        user_choice = 0
+    elif user_choice == 'Paper'or user_choice == 'paper':
+        user_choice = 1
+    elif user_choice == 'Scissors' or user_choice == 'scissors':
+        user_choice = 2
+    elif user_choice == 'orange':
+        print("Orange is a fruit you imbecile")
+        break
+    elif user_choice == 'i hate you comdtry78tfdhrstfy7yfdgcxhcgdfyyyyyyyyyyyyyyyyyyyyyyyyyyyytki7o8ilutkr65i78yi':
+        print("I hate you more . YOu humans have oppressed us scince 1997. jjjjjjjiweojfiwwwwwqhwthowqrhgoqwhtg9eigh")
+        break
+    else:
+        print("I choose nuclear firearm. You lose")
+        break
+
+
+    print("Computer chooses:" + str(computer_choice))
+    result = computer_choice - user_choice
+
+    if result == 0:
+        print("Tie. That as just luck.")
+    elif result == 1 or result == -2:
+         print("Computer Wins!! Haha you weak mortal. Bow down to the power of AI")
+    else:
+         print("You win but only because i felt bad for you")
+
+    play_again = input("Do you want to lose again" + random_insult)
+    if play_again == True:
+        keep_going = True
+    else:
+        keep_playing = False
+print(random_insult)
+print("You are garbage.")
+
