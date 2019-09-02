@@ -12,22 +12,15 @@ while keep_going:
     elif random_insult == 2:
         print("? I bet you won't, as you are a quakebuttock")
     elif random_insult == 3:
-
+        print(", loser.")
     elif random_insult == 4:
-
+        print(", stupido")
     elif random_insult == 5:
-
+        print(", you sotped")
     elif random_insult == 6:
-
+        print(" BEEP BOP BEEOP BOOP")
     elif random_insult == 7:
-
-    elif random_insult == 8:
-
-    elif random_insult == 9:
-
-    elif random_insult == 10:
-
-
+        print("? LAUNDRY BASKET")
 
 
     if user_choice == 'Rock' or user_choice == 'rock':
@@ -64,4 +57,3 @@ while keep_going:
         keep_playing = False
 print(random_insult)
 print("You are garbage.")
-
